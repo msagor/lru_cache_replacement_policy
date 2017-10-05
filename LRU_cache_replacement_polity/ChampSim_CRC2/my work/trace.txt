@@ -1,0 +1,25 @@
+32:::
+
+
+
+
+chmod +x compile_example.sh
+sh ./compile_example.sh	
+
+
+./lru-config1 -warmup_instructions 500000000 -simulation_instructions 750000000 -traces /home/faculty/djimenez/hmmer.trace.gz
+
+./lru-config1 -warmup_instructions 500000000 -simulation_instructions 750000000 -traces /home/faculty/djimenez/lbm.trace.gz	
+
+./lru-config1 -warmup_instructions 500000000 -simulation_instructions 750000000 -traces /home/faculty/djimenez/xalancbmk.trace.gz
+
+./lru-config1 -warmup_instructions 500000000 -simulation_instructions 750000000 -traces /home/grads/e/eteran/mcf.trace.gz
+
+./lru-config1 -warmup_instructions 500000000 -simulation_instructions 750000000 -traces /home/grads/e/eteran/gcc.trace.gz
+running: mylru
+
+
+
+
+
+
